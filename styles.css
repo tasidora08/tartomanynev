@@ -5,6 +5,7 @@ body {
   background-position-y: center;
   background-attachment: fixed;
   background-size: cover;
+  background-image: url(back.jpg);
 }
 
 #tartalom {
@@ -53,4 +54,17 @@ p {
 
 .kiemelt {
   font-weight: bold;
+}
+
+h3 {
+  font-style: italic;
+  text-indent: 10px;
+}
+
+a:hover, :visited {
+  text-decoration: none;
+  color: yellow;
+}
+a:link {
+  color: red;
 }
