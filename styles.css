@@ -61,10 +61,10 @@ h3 {
   text-indent: 10px;
 }
 
-a:hover, :visited {
+a:link, :visited {
   text-decoration: none;
   color: yellow;
 }
-a:link {
+a:hover {
   color: red;
 }
